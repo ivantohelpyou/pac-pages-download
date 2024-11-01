@@ -1,3 +1,17 @@
+# Author's note
+
+Going through this [tutorial](https://learn.microsoft.com/en-us/power-pages/configure/power-platform-cli-tutorial
+), I thought it would helpful to store the commands in a script. 
+
+The next thing you know, I built a command-line utility to download a Power Pages site for local development. 
+
+And because I also want to use [Portals Web API](https://learn.microsoft.com/en-us/power-pages/configure/web-api-overview#site-settings-for-the-web-api),  which requires adding Site Settings, I included that capability too. 
+
+
+
+Ivan Schneider
+October 31, 2024
+
 # Pages Download Script
 
 This repository contains a script to download Power Pages content and create deployment profiles. The script is generalized to work with different environments and table names.
